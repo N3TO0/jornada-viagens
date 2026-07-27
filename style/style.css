@@ -11,7 +11,7 @@
   --text-primary-color:#222222;
   --text-secondary-color: #ffffff;
 
-  /* text family | text size | text weight */;
+  /* text family | text size | text weight */
   --text-family:"Montserrat", sans-serif;
 
   /* --h1-size:;
@@ -23,4 +23,21 @@
   --titles-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
+}
+
+body{
+  background-color: #f3efef;
+}
+
+@media (min-width: 360px){
+  body{
+    background-color: #4f15bb;
+  }
+
+}
+
+@media (min-width: 768px){
+  body{
+    background-color: #ff0000;
+  }
 }
