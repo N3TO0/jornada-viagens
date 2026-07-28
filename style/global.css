@@ -1,0 +1,26 @@
+:root {
+  /* background color*/
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
+
+  --primary-color: #8f0101;
+  --secondary-color: #bb1515;
+
+  /* text color */
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+
+  /* text family | text size | text weight */
+  --text-family: "Montserrat", sans-serif;
+
+  /* --h1-size:;
+  --h2-size:;
+  --h3-size:;
+  --h4-size:;
+  --p-size:; */
+
+  --titles-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
