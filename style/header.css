@@ -8,7 +8,6 @@ header {
   justify-content: space-between;
   padding: 2% 10%;
   position: relative;
-
   a {
     color: var(--background-primary-color);
     font-family: var(--text-family);
@@ -40,15 +39,12 @@ input[type="checkbox"]:checked ~ nav {
   position: absolute;
   top: 99%;
   left: 0;
-
-
 }
 
-/* Tela Descktop */
-@media (min-width: 768px) {
+/* Tela Tablet */
+@media (min-width: 520px) {
   .hamburguer {
     display: none;
-    cursor: pointer;
   }
   .menu {
     display: flex;
