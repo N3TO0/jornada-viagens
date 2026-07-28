@@ -25,6 +25,10 @@ header {
   display: none;
 }
 
+input[type="checkbox"]:checked ~ nav{
+  display: flex;
+}
+
 /* Tela Descktop */
 @media (min-width: 768px) {
   .hamburguer {
