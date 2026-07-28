@@ -3,9 +3,11 @@
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
   padding: 2% 10%;
+  position: relative;
 
   a {
     color: var(--background-primary-color);
@@ -25,8 +27,21 @@ header {
   display: none;
 }
 
-input[type="checkbox"]:checked ~ nav{
+input[type="checkbox"]:checked ~ nav {
   display: flex;
+  ul {
+    flex-direction: column;
+    background-color: var(--background-tertiary-color);
+    gap: 30px;
+    width: 100vw;
+    align-items: center;
+    padding: 20px 0px 40px 0px;
+  }
+  position: absolute;
+  top: 99%;
+  left: 0;
+
+
 }
 
 /* Tela Descktop */
