@@ -3,10 +3,11 @@
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
-  padding: 2% 10%;
-
+  padding: 1.5% 8%;
+  position: relative;
   a {
     color: var(--background-primary-color);
     font-family: var(--text-family);
@@ -25,11 +26,25 @@ header {
   display: none;
 }
 
-/* Tela Descktop */
-@media (min-width: 768px) {
+input[type="checkbox"]:checked ~ nav {
+  display: flex;
+  ul {
+    flex-direction: column;
+    background-color: var(--background-tertiary-color);
+    gap: 30px;
+    width: 100vw;
+    align-items: center;
+    padding: 20px 0px 40px 0px;
+  }
+  position: absolute;
+  top: 96%;
+  left: 0;
+}
+
+/* Tela Tablet */
+@media (min-width: 520px) {
   .hamburguer {
     display: none;
-    cursor: pointer;
   }
   .menu {
     display: flex;
