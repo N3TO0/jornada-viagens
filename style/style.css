@@ -3,7 +3,7 @@
 
 /* Tela Mobile */
 body {
-  background-color: #f3efef;
+  background-color: var(--background-primary-color);
 }
 
 /* Tela Tablet */
@@ -11,7 +11,4 @@ body {
 }
 /* Tela Descktop */
 @media (min-width: 768px) {
-  .hamburguer {
-    display: none;
-  }
 }
