@@ -19,7 +19,7 @@ header {
   }
   ul {
     display: flex;
-    gap: 2vw;
+    gap: 3.5vw;
   }
 }
 .menu {

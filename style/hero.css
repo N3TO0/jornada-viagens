@@ -1,0 +1,25 @@
+
+
+.hero-img {
+  width: 100%;
+  height: 400px;
+  background-image: url(../assets/img/hero-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Tela Tablet */
+@media (min-width: 420px) {
+  .hero-img {
+    /* height: 780px; */
+
+    background-image: url(../assets/img/hero-tablet.png);
+  }
+}
+/* Tela Descktop */
+@media (min-width: 768px) {
+  .hero-img {
+    height: 40vw;
+    background-image: url(../assets/img/hero-descktop.png);
+  }
+}
