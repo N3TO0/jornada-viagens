@@ -1,0 +1,60 @@
+.hero {
+  .hero-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/img/hero-mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  h4 {
+    font-size: 5.5vw;
+    font-weight: var(--text-weight);
+  }
+
+  .content-hero {
+    padding: 16vw 7.3vw;
+    text-align: center;
+    line-height: 8.8vw;
+    color: var(--text-primary-color);
+  }
+}
+
+/* Tela Tablet */
+@media (min-width: 500px) {
+  .hero-img {
+    background-image: url(../assets/img/hero-tablet.png);
+  }
+  .hero {
+    .hero-img {
+      height: 600px;
+      background-image: url(../assets/img/hero-mobile.png);
+    }
+
+    h4 {
+      font-size: 4.1vw;
+    }
+
+    .content-hero {
+      padding: 13vw 8%;
+      line-height: 7vw;
+    }
+  }
+}
+/* Tela Descktop | min */
+@media (min-width: 800px) {
+  .hero {
+    .hero-img {
+      height: 40vw;
+      background-image: url(../assets/img/hero-descktop.png);
+    }
+    h4 {
+      font-size: 2.25vw;
+    }
+
+    .content-hero {
+      padding: 5.4vw 8%;
+      line-height: 3.5vw;
+    }
+  }
+}
