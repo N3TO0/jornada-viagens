@@ -5,6 +5,7 @@
 /* Tela Mobile */
 body {
   background-color: var(--background-primary-color);
+  font-family: var(--text-family);
 }
 
 /* Tela Tablet */
