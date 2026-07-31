@@ -13,7 +13,7 @@
   }
 
   .content-hero {
-    padding: 20vw 7.3vw;
+    padding: 16vw 7.3vw;
     text-align: center;
     line-height: 8.8vw;
     color: var(--text-primary-color);
@@ -36,7 +36,7 @@
     }
 
     .content-hero {
-      padding: 13vw 8vw;
+      padding: 13vw 8%;
       line-height: 7vw;
     }
   }
@@ -53,21 +53,8 @@
     }
 
     .content-hero {
-      padding: 5.4vw 8vw;
-      line-height: 3.45vw;
-    }
-  }
-}
-/* Tela Descktop | maior*/
-@media (min-width: 1650px) {
-  .hero {
-    h4 {
-      font-size: 1.7vw;
-    }
-
-    .content-hero {
-      padding: 5.4vw 18vw;
-      line-height: 3.2vw;
+      padding: 5.4vw 8%;
+      line-height: 3.5vw;
     }
   }
 }
