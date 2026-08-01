@@ -23,6 +23,27 @@ body {
   background-color: var(--background-primary-color);
   font-family: var(--text-family);
 }
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 5.3vw;
+  font-weight: var(--titles-weight);
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  height: 52px;
+  width: 230px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: var(--primary-color);
+}
+
+/* .card footer .button {
+  height: 100%;
+  width: 100%
+} */
 
 .section-title {
     display: flex;

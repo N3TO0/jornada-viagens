@@ -45,18 +45,9 @@
   font-size: 20px;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  font-size: 5.3vw;
-  font-weight: var(--titles-weight);
-  color: var(--text-secondary-color);
-  text-align: center;
-  background-color: red;
+.card footer .button {
   height: 100%;
-  cursor: pointer;
+  width: 100%
 }
 
 @media (min-width: 760px) {
@@ -90,7 +81,7 @@
     font-size: 20px;
   }
 
-  .button {
+  .card footer .button {
     font-size: 2.6vw;
   }
 }
@@ -124,10 +115,12 @@
   .card footer {
     height: 5vw;
     font-size: 20px;
+    display:flex;
   }
 
-  .button {
+  .card footer .button {
     font-size: 1.6vw;
+    width: calc(100% - 8%);
     margin: 0 8%;
   }
 }
