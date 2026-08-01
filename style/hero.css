@@ -7,7 +7,7 @@
     background-position: center;
   }
 
-  h4 {
+  h1 {
     font-size: 5.5vw;
     font-weight: var(--text-weight);
   }
@@ -23,15 +23,11 @@
 /* Tela Tablet */
 @media (min-width: 500px) {
   .hero-img {
+    height: 600px;
     background-image: url(../assets/img/hero-tablet.png);
   }
   .hero {
-    .hero-img {
-      height: 600px;
-      background-image: url(../assets/img/hero-mobile.png);
-    }
-
-    h4 {
+    h1 {
       font-size: 4.1vw;
     }
 
@@ -48,7 +44,7 @@
       height: 40vw;
       background-image: url(../assets/img/hero-descktop.png);
     }
-    h4 {
+    h1 {
       font-size: 2.25vw;
     }
 
