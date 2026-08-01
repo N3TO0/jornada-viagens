@@ -10,7 +10,6 @@ header {
   position: relative;
   a {
     color: var(--background-primary-color);
-    font-family: var(--text-family);
     font-weight: var(--menu-text-weight);
     cursor: pointer;
     font-size: 5.2vw;

@@ -38,7 +38,7 @@ body {
       height: 4px;
       background-color: var(--secondary-color);
       border: none;
-      margin: 1.1% 0px 2.2% 0px;
+      margin: 3.5% 0px 7% 0px;
     }
 }
 
@@ -50,6 +50,7 @@ body {
       hr {
         width: 30%;
         height: 8px;
+        margin: 2% 0px 4.5% 0px;
       }
     }
 }
@@ -57,11 +58,12 @@ body {
 @media (min-width: 1020px) {
   .section-title {
     h2 {
-      font-size: 2.5vw;
+      font-size: 2.4vw;
     }
     hr {
       width: 15%;
       height: 8px;
+      margin: 1.5% 0px 3.5% 0px;
     }
   }
 }
