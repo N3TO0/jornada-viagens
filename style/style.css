@@ -1,16 +1,9 @@
+@import url(reset.css);
 @import url(global.css);
 @import url(header.css);
 @import url(hero.css);
+@import url(offers.css);
 
-/* Tela Mobile */
-body {
-  background-color: var(--background-primary-color);
-  font-family: var(--text-family);
-}
 
-/* Tela Tablet */
-@media (min-width: 360px) {
-}
-/* Tela Descktop */
-@media (min-width: 768px) {
-}
+
+
