@@ -39,12 +39,6 @@ body {
 .button:hover{
   background-color: var(--primary-color);
 }
-
-/* .card footer .button {
-  height: 100%;
-  width: 100%
-} */
-
 .section-title {
     display: flex;
     flex-direction: column;
