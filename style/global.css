@@ -18,7 +18,6 @@
   --text-weight: 400;
   --menu-text-weight: 500;
 }
-
 body {
   background-color: var(--background-primary-color);
   font-family: var(--text-family);
@@ -47,6 +46,8 @@ body {
       font-size: 7.8vw;
       font-weight: var(--titles-weight);
       text-align: center;
+      margin-top: 13vw;
+      padding: 0px 8vw;
     }
     hr {
       width: 50vw;
@@ -56,11 +57,12 @@ body {
       margin: 3.5% 0px 7% 0px;
     }
 }
-
 @media (min-width: 620px) {
     .section-title {
       h2 {
         font-size: 5vw;
+        margin-top: 8vw;
+        padding: 0px 0vw;
       }
       hr {
         width: 30%;
@@ -69,11 +71,12 @@ body {
       }
     }
 }
-
 @media (min-width: 1020px) {
   .section-title {
     h2 {
       font-size: 2.4vw;
+      margin-top: 4vw;
+      padding: 0px 0vw;
     }
     hr {
       width: 15%;
