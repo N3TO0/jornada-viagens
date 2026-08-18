@@ -17,7 +17,7 @@
   align-items: center;
   gap: 7vw;
   background-color: var(--background-secondary-color);
-  padding: 11vw 8vw;
+  padding: 11vw 7vw;
   img {
     height: 62px;
   }
@@ -27,8 +27,6 @@
   .caregory-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 2.8vw;
   }
   .caregory-cards .card {
@@ -42,20 +40,16 @@
 
 @media (min-width: 1020px) {
   .caregory-cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2.8vw;
+    gap: 2vw;
   }
   .caregory-cards .card {
-    font-size: 2vw;
-    gap: 3vw;
-    padding: 2vw 0vw;
-    width: 18.5%;
-    height: 17vw;
+    font-size: 1.5vw;
+    gap: 2vw;
+    padding: 2vw 0.8vw;
+    width: 15.3%;
+    height: 15vw;
     img {
-      height: 62px;
+      height: 3.8vw;
     }
   }
 }
