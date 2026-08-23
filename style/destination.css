@@ -1,0 +1,24 @@
+.cards-destination{
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+}
+.cards-destination article{
+    width: 100%;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 11.2vw;
+    gap: 6vw;
+    h3{
+        width: 100%;
+        font-size: 8vw;
+        font-weight: var(--titles-weight);
+    }
+    p{
+        line-height: 8vw;
+    }
+    a{
+        width: 100%;
+    }
+}
