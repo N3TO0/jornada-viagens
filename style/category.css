@@ -46,7 +46,7 @@
 @media (min-width: 1020px) {
   .caregory-cards {
     gap: 2vw;
-    height: 22vw;
+    height: 16vw;
   }
   .caregory-cards .card {
     font-size: 1.5vw;
