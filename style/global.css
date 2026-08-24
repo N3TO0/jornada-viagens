@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 5.3vw;
   font-weight: var(--titles-weight);
   color: var(--text-secondary-color);
@@ -43,11 +43,11 @@ body {
     flex-direction: column;
     align-items: center;
     h2 {
-      font-size: 7vw;
+      font-size: 8vw;
       font-weight: var(--titles-weight);
       text-align: center;
       margin-top: 13vw;
-      padding: 0px 8vw;
+      padding: 0px 9vw;
     }
     hr {
       width: 50vw;
