@@ -1,0 +1,152 @@
+.payment-terms {
+  width: 100%;
+  padding: 0 10.5vw;
+
+}
+.payment-terms article {
+  display: flex;
+  gap: 8vw;
+  flex-direction: column;
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    padding: 1vw 0 0 0;
+    background-color: white;
+    h3 {
+      font-size: 7.2vw;
+      font-weight: var(--titles-weight);
+    }
+    p {
+      font-size: 5.2vw;
+      line-height: 8vw;
+    }
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    .photo-3 {
+      display: flex;
+      flex-direction: row;
+      gap: 6%;
+      picture {
+        width: 50%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (min-width: 500px) {
+  .payment-terms article {
+    gap: 4vw;
+    header {
+      gap: 3vw;
+      padding: 1vw 0 0 0;
+      h3 {
+        font-size: 3.5vw;
+        font-weight: var(--titles-weight);
+        width: 100%;
+      }
+      p {
+        font-size: 2.5vw;
+        line-height: 4vw;
+      }
+    }
+    footer {
+      gap: 2vw;
+      .photo-3 {
+        gap: 3%;
+        picture {
+          width: 50%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 1000px) {
+  .payment-terms {
+    padding: 0 15.5vw;
+  }
+  .payment-terms article {
+    margin-top: 1.8vw;
+    gap: 2%;
+    flex-direction: row;
+    header {
+      width: 33%;
+      gap: 2vw;
+      padding: 0vw 0 0 0;
+      justify-content: start;
+      h3 {
+        font-size: 2vw;
+        font-weight: var(--titles-weight);
+      }
+      p {
+        font-size: 1.5vw;
+        line-height: 2vw;
+      }
+    }
+    footer {
+      width: 65%;
+      gap: 1vw;
+      .photo-3 {
+        gap: 2.8%;
+        picture {
+          width: 50%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 1800px) {
+  .payment-terms article {
+    gap: 1vw;
+    flex-direction: row;
+    header {
+      width: 30%;
+      gap: 2vw;
+      justify-content: start;
+      h3 {
+        font-size: 2vw;
+        font-weight: var(--titles-weight);
+      }
+      p {
+        font-size: 1.5vw;
+        line-height: 2vw;
+      }
+    }
+    footer {
+      width: 70%;
+      gap: 1vw;
+      .photo-3 {
+        gap: 2.8%;
+        picture {
+          width: 50%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
