@@ -43,7 +43,7 @@ body {
     flex-direction: column;
     align-items: center;
     h2 {
-      font-size: 7vw;
+      font-size: 8vw;
       font-weight: var(--titles-weight);
       text-align: center;
       margin-top: 13vw;
