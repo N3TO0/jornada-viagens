@@ -19,7 +19,7 @@
     width: fit-content;
     background-color: white;
   }
-  h4 {
+  h3 {
     width: 100%;
     font-size: 7.2vw;
     font-weight: var(--titles-weight);
@@ -44,7 +44,7 @@
   }
   .cards-destination article {
     gap: 3vw;
-    h4 {
+    h3 {
       font-size: 3.6vw;
     }
     p {
@@ -70,7 +70,7 @@
     header {
       gap: 1.5vw;
     }
-    h4 {
+    h3 {
       font-size: 2.2vw;
     }
     p {
@@ -91,7 +91,7 @@
     header {
       gap: 1vw;
     }
-    h4 {
+    h3 {
       font-size: 2.2vw;
     }
     p {
