@@ -44,6 +44,7 @@
 @media (min-width: 500px) {
   .testimonials {
     padding: 0 10vw;
+    margin-bottom: 8vw;
   }
   .testimonials-container {
     display: flex;
@@ -74,6 +75,7 @@
 @media (min-width: 1000px) {
   .testimonials {
     padding: 0 15.5vw;
+    margin-bottom: 5vw;
   }
   .testimonials-container {
     display: flex;
@@ -86,14 +88,17 @@
     display: flex;
     flex-direction: column;
     gap: 1.2vw;
-    width: 1fr;
+    width: 100%;
     header {
       width: 100%;
       div {
-        padding-top: 3vw;
-        gap: 0.8vw;
-        margin-left: 1vw;
-        font-size: 1.4vw;
+        display: flex;
+        align-items: center;
+        padding: 0 1.2vw;
+        justify-content: center;
+        margin: 0;
+        gap: 0.6vw;
+        font-size: 1.35vw;
       }
     }
     footer {
@@ -104,7 +109,6 @@
   }
 }
 @media (min-width: 1440px) {
-
   .testimonials-container {
     display: flex;
     flex-direction: row;
@@ -119,11 +123,6 @@
     width: 1fr;
     header {
       width: 100%;
-      div {
-        gap: 0.8vw;
-        margin-left: 1vw;
-        font-size: 1.4vw;
-      }
     }
     footer {
       line-height: 1.6vw;
