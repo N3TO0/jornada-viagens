@@ -136,19 +136,19 @@
     margin: 0 8%;
   }
   .card.japao {
-    background-image: url(../assets/img/bg-japao-descktop.png);
+    background-image: url(../assets/img/bg-japao-desktop.png);
   }
   .card.san-andreas {
     h3 {
       width: 180%;
     }
-    background-image: url(../assets/img/bg-san-andreas-descktop.png);
+    background-image: url(../assets/img/bg-san-andreas-desktop.png);
   }
   .card.paraiba {
-    background-image: url(../assets/img/bg-paraiba-descktop.png);
+    background-image: url(../assets/img/bg-paraiba-desktop.png);
   }
   .card.manaus {
-    background-image: url(../assets/img/bg-manaus-descktop.png);
+    background-image: url(../assets/img/bg-manaus-desktop.png);
   }
 }
 
