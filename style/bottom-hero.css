@@ -1,16 +1,17 @@
-.hero {
+.hero,
+.bottom-section {
   h1 {
     font-size: 5.5vw;
     font-weight: var(--text-weight);
   }
-
   .content-hero {
     padding: 16vw 7.3vw 0 7.3vw;
     text-align: center;
     line-height: 8.8vw;
     color: var(--text-primary-color);
   }
-  .hero-img {
+  .hero-img,
+  .bottom-img {
     width: 100%;
     height: 98vw;
     background-image: url(../assets/img/hero-mobile.png);
@@ -18,11 +19,18 @@
     background-position: center;
   }
 }
+.bottom-section {
+  .bottom-img {
+    background-image: url(../assets/img/bottom-section-mobile.jpg);
+  }
+}
 
 /* Tela Tablet */
 @media (min-width: 500px) {
-  .hero {
-    .hero-img {
+  .hero,
+  .bottom-section {
+    .hero-img,
+    .bottom-img {
       height: 57vw;
       background-image: url(../assets/img/hero-tablet.png);
     }
@@ -35,13 +43,20 @@
       line-height: 7vw;
     }
   }
+  .bottom-section {
+    .bottom-img {
+      background-image: url(../assets/img/bottom-section-tablet.jpg);
+    }
+  }
 }
 /* Tela Descktop | min */
 @media (min-width: 800px) {
-  .hero {
-    .hero-img {
+  .hero,
+  .bottom-section {
+    .hero-img,
+    .bottom-img {
       height: 40vw;
-      background-image: url(../assets/img/hero-descktop.png);
+      background-image: url(../assets/img/hero-desktop.png);
     }
     h1 {
       font-size: 1.85vw;
@@ -49,7 +64,6 @@
       text-align: center;
       width: 100%;
     }
-
     .content-hero {
       padding: 5.4vw 15.5% 0 15.5%;
       line-height: 3vw;
@@ -59,11 +73,18 @@
       align-items: center;
     }
   }
+  .bottom-section {
+    .bottom-img {
+      background-image: url(../assets/img/bottom-section-desktop.jpg);
+    }
+  }
 }
 
 @media (min-width: 1440px) {
-  .hero {
-    .hero-img {
+  .hero,
+  .bottom-section {
+    .hero-img,
+    .bottom-img {
       height: 28vw;
     }
     h1 {
