@@ -1,0 +1,131 @@
+.footer-all {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 8vw 10vw;
+  line-height: 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+  .footer-main {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    justify-items: center;
+    gap: 6vw;
+    grid-template-areas:
+      ". logo-footer logo-footer ."
+      "h4-1 h4-1 h4-1 h4-1"
+      "h4-2 h4-2 h4-2 h4-2";
+    .h4-1 {
+      margin-top: 2vw;
+      grid-area: h4-1;
+    }
+    .h4-2 {
+      grid-area: h4-2;
+    }
+    .logo-footer {
+      width: 100%;
+      grid-area: logo-footer;
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p,
+    h4 {
+      font-size: 4.5vw;
+    }
+    gap: 2vw;
+    .div-icone {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      box-sizing: border-box;
+      gap: 1vw;
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .footer-all {
+    padding: 4vw 10vw;
+    line-height: 5vw;
+    gap: 3vw;
+    .footer-main {
+      gap: 0vw;
+      .h4-1 {
+        margin-top: 3vw;
+        grid-area: h4-1;
+      }
+      .logo-footer {
+        width: 50%;
+        grid-area: logo-footer;
+      }
+    }
+    div {
+      gap: 1vw;
+      p,
+      h4 {
+        font-size: 2.5vw;
+      }
+      .div-icone {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer-all {
+    padding: 3.2vw 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    .footer-main {
+      text-align: start;
+      width: 70%;
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: 1.2fr 1fr 1fr 1fr;
+      justify-items: start;
+      grid-template-areas:
+        "logo-footer . . ."
+        "h4-1 h4-1 h4-1 h4-1"
+        "h4-2 h4-2 h4-2 h4-2";
+      gap: 0vw;
+      .h4-1 {
+        margin-top: 2vw;
+        grid-area: h4-1;
+      }
+      .logo-footer {
+        width: 100%;
+      }
+    }
+    div {
+      gap: 0.1vw;
+      p,
+      h4 {
+        font-size: 1.2vw;
+        line-height: 2.2vw;
+      }
+      .div-icone {
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 0 1vw;
+        img {
+          width: 2vw;
+        }
+      }
+    }
+  }
+}
