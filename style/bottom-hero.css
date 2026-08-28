@@ -9,6 +9,7 @@
   .hero-img,
   .hero-img-2,
   .hero-img-3,
+  .hero-img-4,
   .bottom-img,
   .bottom-img-2,
   .bottom-img-3 {
@@ -18,7 +19,7 @@
       align-items: start;
       color: white;
       justify-content: center;
-      padding: 13%;
+      padding: 10%;
       h1 {
         font-size: 8vw;
         font-weight: var(--titles-weight);
@@ -28,7 +29,7 @@
       }
       h3 {
         font-weight: var(--text-weight);
-        color: rgba(255, 255, 255, 0.705);
+        color: rgba(255, 255, 255, 0.87);
         line-height: 6.5vw;
       }
       hr {
@@ -51,6 +52,9 @@
   .hero-img-3 {
     background-image: url(../assets/img/hero-3-mobile.jpg);
   }
+  .hero-img-4 {
+    background-image: url(../assets/img/hero-4-mobile.jpg);
+  }
 }
 .bottom-section {
   .bottom-img {
@@ -71,11 +75,12 @@
     .hero-img,
     .hero-img-2,
     .hero-img-3,
+    .hero-img-4,
     .bottom-img,
     .bottom-img-2,
     .bottom-img-3 {
       .section-title {
-        padding: 13% 30% 13% 10%;
+        padding: 13% 30% 13% 9.15%;
         h1 {
           font-size: 6vw;
         }
@@ -101,6 +106,10 @@
     .hero-img-3 {
       background-image: url(../assets/img/hero-3-tablet.jpg);
     }
+    .hero-img-4 {
+      background-image: url(../assets/img/hero-4-tablet.jpg);
+    }
+
     h1 {
       font-size: 2.5vw;
       line-height: 4.2vw;
@@ -129,11 +138,12 @@
     .hero-img,
     .hero-img-2,
     .hero-img-3,
+    .hero-img-4,
     .bottom-img,
     .bottom-img-2,
     .bottom-img-3 {
       .section-title {
-        padding: 13% 47% 13% 16%;
+        padding: 13% 50% 13% 16%;
         h1 {
           font-size: 3vw;
         }
@@ -158,6 +168,9 @@
     }
     .hero-img-3 {
       background-image: url(../assets/img/hero-3-desktop.jpg);
+    }
+    .hero-img-4 {
+      background-image: url(../assets/img/hero-4-desktop.jpg);
     }
     h1 {
       font-size: 1.85vw;
@@ -190,12 +203,13 @@
 @media (min-width: 1440px) {
   .hero,
   .bottom-section {
-    .h.hero-img,
+    .hero-img,
     .hero-img-2,
     .hero-img-3,
+    .hero-img-4,
     .bottom-img,
     .bottom-img-2,
-    .bottom-img-3 {
+    .bottom-img-3{
       height: 28vw;
     }
     h1 {
