@@ -1,9 +1,5 @@
 .hero,
 .bottom-section {
-  h1 {
-    font-size: 5.5vw;
-    font-weight: var(--text-weight);
-  }
   .content-hero {
     padding: 16vw 7.3vw 0 7.3vw;
     text-align: center;
@@ -11,17 +7,60 @@
     color: var(--text-primary-color);
   }
   .hero-img,
-  .bottom-img {
+  .hero-img-2,
+  .hero-img-3,
+  .bottom-img,
+  .bottom-img-2,
+  .bottom-img-3 {
+    display: flex;
+    align-items: center;
+    .section-title {
+      align-items: start;
+      color: white;
+      justify-content: center;
+      padding: 13%;
+      h1 {
+        font-size: 8vw;
+        font-weight: var(--titles-weight);
+        text-align: start;
+        margin: 0;
+        padding: 0;
+      }
+      h3 {
+        font-weight: var(--text-weight);
+        color: rgba(255, 255, 255, 0.705);
+        line-height: 6.5vw;
+      }
+      hr {
+        width: 25vw;
+        height: 4px;
+        background-color: var(--secondary-color);
+        border: none;
+        margin: 3.5% 0px 7% 0px;
+      }
+    }
     width: 100%;
     height: 98vw;
-    background-image: url(../assets/img/hero-mobile.png);
+    background-image: url(../assets/img/hero-mobile.jpg);
     background-size: cover;
     background-position: center;
+  }
+  .hero-img-2 {
+    background-image: url(../assets/img/hero-2-mobile.jpg);
+  }
+  .hero-img-3 {
+    background-image: url(../assets/img/hero-3-mobile.jpg);
   }
 }
 .bottom-section {
   .bottom-img {
     background-image: url(../assets/img/bottom-section-mobile.jpg);
+  }
+  .bottom-img-2 {
+    background-image: url(../assets/img/bottom-2-section-mobile.jpg);
+  }
+  .bottom-img-3 {
+    background-image: url(../assets/img/bottom-3-section-mobile.jpg);
   }
 }
 
@@ -30,9 +69,37 @@
   .hero,
   .bottom-section {
     .hero-img,
-    .bottom-img {
+    .hero-img-2,
+    .hero-img-3,
+    .bottom-img,
+    .bottom-img-2,
+    .bottom-img-3 {
+      .section-title {
+        padding: 13% 30% 13% 10%;
+        h1 {
+          font-size: 6vw;
+        }
+        h3 {
+          color: rgb(255, 255, 255);
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        hr {
+          width: 22vw;
+          height: 4px;
+          background-color: var(--secondary-color);
+          border: none;
+          margin: 3.5% 0px 7% 0px;
+        }
+      }
       height: 57vw;
-      background-image: url(../assets/img/hero-tablet.png);
+      background-image: url(../assets/img/hero-tablet.jpg);
+    }
+    .hero-img-2 {
+      background-image: url(../assets/img/hero-2-tablet.jpg);
+    }
+    .hero-img-3 {
+      background-image: url(../assets/img/hero-3-tablet.jpg);
     }
     h1 {
       font-size: 2.5vw;
@@ -47,6 +114,12 @@
     .bottom-img {
       background-image: url(../assets/img/bottom-section-tablet.jpg);
     }
+    .bottom-img-2 {
+      background-image: url(../assets/img/bottom-2-section-tablet.jpg);
+    }
+    .bottom-img-3 {
+      background-image: url(../assets/img/bottom-3-section-tablet.jpg);
+    }
   }
 }
 /* Tela Descktop | min */
@@ -54,9 +127,37 @@
   .hero,
   .bottom-section {
     .hero-img,
-    .bottom-img {
+    .hero-img-2,
+    .hero-img-3,
+    .bottom-img,
+    .bottom-img-2,
+    .bottom-img-3 {
+      .section-title {
+        padding: 13% 47% 13% 16%;
+        h1 {
+          font-size: 3vw;
+        }
+        h3 {
+          color: rgb(255, 255, 255);
+          font-size: 2vw;
+          line-height: 3vw;
+        }
+        hr {
+          width: 12vw;
+          height: 4px;
+          background-color: var(--secondary-color);
+          border: none;
+          margin: 3.5% 0px 4% 0px;
+        }
+      }
       height: 40vw;
-      background-image: url(../assets/img/hero-desktop.png);
+      background-image: url(../assets/img/hero-desktop.jpg);
+    }
+    .hero-img-2 {
+      background-image: url(../assets/img/hero-2-desktop.jpg);
+    }
+    .hero-img-3 {
+      background-image: url(../assets/img/hero-3-desktop.jpg);
     }
     h1 {
       font-size: 1.85vw;
@@ -77,14 +178,24 @@
     .bottom-img {
       background-image: url(../assets/img/bottom-section-desktop.jpg);
     }
+    .bottom-img-2 {
+      background-image: url(../assets/img/bottom-2-section-desktop.jpg);
+    }
+    .bottom-img-3 {
+      background-image: url(../assets/img/bottom-3-section-desktop.jpg);
+    }
   }
 }
 
 @media (min-width: 1440px) {
   .hero,
   .bottom-section {
-    .hero-img,
-    .bottom-img {
+    .h.hero-img,
+    .hero-img-2,
+    .hero-img-3,
+    .bottom-img,
+    .bottom-img-2,
+    .bottom-img-3 {
       height: 28vw;
     }
     h1 {
