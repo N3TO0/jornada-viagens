@@ -1,7 +1,7 @@
 .footer-all {
   background-color: rgb(0, 0, 0);
   color: white;
-  padding: 8vw 10vw;
+  padding: 8vw 12vw;
   line-height: 8vw;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@
 
 @media (min-width: 1000px) {
   .footer-all {
-    padding: 3.2vw 15vw;
+    padding: 3.2vw 16vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
