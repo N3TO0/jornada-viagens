@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <title>Jornada Viagens</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" title="Voltar Para Página Inicial">
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="assets/icon/Logo-provisória-branca-descktop-.png"
+          />
+          <img
+            src="assets/icon/Logo-provisória-branca-celular-tablet.png"
+            alt="logo_da_jornada_viagens_com_uma_busula"
+          />
+        </picture>
+      </a>
+      <div>
+        <label for="menu_hamburguer">
+          <img
+            class="hamburguer"
+            src="assets/icon/icone_menu_branco.png"
+            alt="icone_de_menu_hamburguer"
+          />
+        </label>
+        <input id="menu_hamburguer" type="checkbox" hidden />
+        <nav class="menu">
+          <ul>
+            <li>
+              <a clas="menu_link" href="blog.html" title="Acessar Blog">Blog</a>
+            </li>
+            <li>
+              <a
+                clas="menu_link"
+                href="destino.html"
+                title="Acessar Pagotes de Viagem"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a clas="menu_link" href="contato.html" title="Acessar Contatos"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-img-3">
+          <div class="section-title">
+            <h1>Conheça o Japão!</h2>
+            <hr />
+            <h3>
+              A Jornada possui o pacote perfeito para seu estilo e orçamento!
+              Conheça as belas paisagens e a cultura milenar deste belo país!
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="destination">
+        <div class="section-title">
+          <h2>Destinos Populares</h2>
+          <hr />
+        </div>
+
+        <div class="cards-destination">
+          <article>
+            <header>
+              <picture>
+                <source
+                  media="(min-width:600px)"
+                  srcset="assets/img/destination-desktop-tokyo.jpg"
+                />
+                <img
+                  src="/assets/img/destination-mobile-tokyo.jpg"
+                  alt="imagem da cidade de tokyo"
+                />
+              </picture>
+              <h3>Tokyo</h3>
+            </header>
+
+            <p>
+              Tokyo é uma cidade vibrante e cosmopolita, com seus templos
+              históricos, museus de arte moderna e arranha-céus icônicos. Não
+              perca a chance de mergulhar em sua atmosfera fascinante.
+            </p>
+
+            <footer>
+              <a
+                class="button"
+                href="#"
+                target="_blank"
+                title="ver detalhes sobre tokyo"
+                >Ver detalhes</a
+              >
+            </footer>
+          </article>
+
+          <article>
+            <header>
+              <picture>
+                <source
+                  media="(min-width:600px)"
+                  srcset="assets/img/destination-desktop-osaka.jpg"
+                />
+                <img
+                  src="/assets/img/destination-mobile-osaka.jpg"
+                  alt="imagem de uma região de osaka"
+                />
+              </picture>
+              <h3>Osaka</h3>
+            </header>
+
+            <p>
+              Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
+              por sua gastronomia deliciosa e por ser um excelente ponto de
+              partida para explorar outras cidades japonesas próximas.
+            </p>
+
+            <footer>
+              <a
+                class="button"
+                href="#"
+                target="_blank"
+                title="ver detalhes sobre osaka"
+                >Ver detalhes</a
+              >
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="payment-terms">
+        <div class="section-title">
+          <h2>Pagamento</h2>
+          <hr />
+        </div>
+
+        <article>
+          <header>
+            <h3>R$4000<br /><span>Em até 12x!</span></h3>
+            <p>
+              Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
+              5% de desconto ou no Pix com 10% de desconto!
+            </p>
+          </header>
+          <footer class="photos-payment">
+            <picture class="photo-1">
+              <source
+                media="(min-width:1000px)"
+                srcset="/assets/img/payment-desktop-japão-1.jpg"
+              />
+              <source
+                media="(min-width:600px)"
+                srcset="/assets/img/payment-tablet-japão-1.jpg"
+              />
+              <img src="/assets/img/payment-mobile-japão-1.jpg" alt="" />
+            </picture>
+            <picture class="photo-2">
+              <source
+                media="(min-width:1000px)"
+                srcset="/assets/img/payment-desktop-japão-2.jpg"
+              />
+              <source
+                media="(min-width:600px)"
+                srcset="/assets/img/payment-tablet-japão-2.jpg"
+              />
+              <img src="/assets/img/payment-mobile-japão-2.jpg" alt="" />
+            </picture>
+
+            <picture class="photo-3">
+              <source
+                media="(min-width:1000px)"
+                srcset="/assets/img/payment-desktop-japão-3.jpg"
+              />
+              <source
+                media="(min-width:600px)"
+                srcset="/assets/img/payment-tablet-japão-3.jpg"
+              />
+              <img
+                src="/assets/img/payment-mobile-japão-3.jpg"
+                alt="imagem de uma região do jopão onde tem uma mulher andando"
+              />
+            </picture>
+          </footer>
+        </article>
+      </section>
+
+      <section class="testimonials">
+        <div class="section-title">
+          <h2>Depoimentos</h2>
+          <hr />
+        </div>
+        <div class="testimonials-container">
+          <article class="assessment">
+            <header>
+              <img
+                class="perfil"
+                src="assets/img/img-talita.png"
+                alt="Imagem da cliente Talita Villas Boas"
+              />
+              <div class="">
+                <h3>Júlio Garibaldi</h3>
+                <img
+                  src="assets/icon/avaliacao-5-estrelas.png"
+                  alt="Avaliação de 5 estrelas da cliente Talita Villas Boas"
+                />
+              </div>
+            </header>
+            <footer>
+              <p>
+                Tive uma experiência inesquecível. O pacote Japão me permitiu
+                explorar de templos antigos a cidades modernas. E o valor coube
+                no bolso, recomendo!
+              </p>
+            </footer>
+          </article>
+
+          <article class="assessment">
+            <header>
+              <img
+                class="perfil"
+                src="assets/img/img-amari.png"
+                alt="Imagem da cliente Amari Salin"
+              />
+              <div>
+                <h3>Lúcia S. Rabello</h3>
+                <img
+                  src="assets/icon/avaliacao-5-estrelas.png"
+                  alt="Avaliação de 5 estrelas da cliente Amari Salin"
+                />
+              </div>
+            </header>
+            <footer>
+              <p>
+                Minha viagem para Tóquio foi incrível. O itinerário
+                personalizado me permitiu muito em pouco tempo. Excedeu minhas
+                expectativas e já quero viajar com a Jornada novamente!
+              </p>
+            </footer>
+          </article>
+
+          <article class="assessment">
+            <header>
+              <img
+                class="perfil"
+                src="assets/img/img-lauro.png"
+                alt="Imagem da cliente Lauro B. Matos"
+              />
+              <div>
+                <h3>Olga dos Reis</h3>
+                <img
+                  src="assets/icon/avaliacao-5-estrelas.png"
+                  alt="Avaliação de 5 estrelas da cliente Lauro B. Matos"
+                />
+              </div>
+            </header>
+            <footer>
+              <p>
+                Minha viagem para Osaka foi inesquecível! A Jornada organizou
+                tudo de forma perfeita, recomendo de olhos fechados!
+              </p>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="bottom-section">
+        <div class="bottom-img-2"></div>
+      </section>
+    </main>
+    <footer class="footer-all">
+      <div class="footer-main">
+        <img
+          class="logo-footer"
+          src="assets/icon/Logo-footer.png"
+          alt="logo da 'jornada viagens'"
+        />
+        <h4 class="h4-1">
+          Horário de atendimento: 08h - 20h (Segunda a Sábado)
+        </h4>
+        <h4 class="h4-2">
+          Desenvolvido por Alura. Projeto fictício sem fins comerciais.
+        </h4>
+      </div>
+      <div>
+        <p>Acesse nossas redes:</p>
+        <div class="div-icone">
+          <a
+            href="#"
+            target="_blank"
+            title="Acesse o whatsapp do Jornada Viagens"
+            ><img
+              src="assets/icon/icon-whatsapp.png"
+              alt="icone do aplicativo whatsapp"
+          /></a>
+          <a
+            href="#"
+            target="_blank"
+            title="Acesse o Instagram do Jornada Viagens"
+            ><img
+              src="assets/icon/icon-instragam.png"
+              alt="icone do aplicativo instagram"
+          /></a>
+          <a href="#" target="_blank" title="Acesse o Twiter do Jornada Viagens"
+            ><img
+              src="assets/icon/icon-twiter.png"
+              alt="icone do aplicativo twiter"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
