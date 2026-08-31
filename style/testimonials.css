@@ -28,7 +28,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-size: var(--h3-text-mobile);
+      font-size: var(--h4-text-mobile);
       font-weight: var(--titles-weight);
       img {
         width: 100%;
@@ -62,7 +62,7 @@
       div {
         gap: 1.5vw;
         margin-left: 1.5vw;
-        font-size: var(--h3-text-tablet);
+        font-size: var(--h4-text-tablet);
       }
     }
     footer {
@@ -98,7 +98,7 @@
         justify-content: center;
         margin: 0;
         gap: 0.6vw;
-        font-size: var(--h3-text-desktop);
+        font-size: var(--h4-text-desktop);
       }
     }
     footer {
