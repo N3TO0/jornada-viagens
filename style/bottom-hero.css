@@ -19,18 +19,22 @@
       align-items: start;
       color: white;
       justify-content: center;
-      padding: 10%;
+      padding: 11%;
       h1 {
-        font-size: 8vw;
+        font-size: var(--h1-text-mobile);
         font-weight: var(--titles-weight);
         text-align: start;
         margin: 0;
         padding: 0;
       }
-      h3 {
+      h2 {
+        text-align: start;
+        margin-top: 0;
+        padding: 0;
         font-weight: var(--text-weight);
         color: rgba(255, 255, 255, 0.87);
-        line-height: 6.5vw;
+        line-height: 7.8vw;
+        font-size: var(--h2-text-mobiel);
       }
       hr {
         width: 25vw;
@@ -82,12 +86,11 @@
       .section-title {
         padding: 13% 30% 13% 9.15%;
         h1 {
-          font-size: 6vw;
+          font-size: var(--h1-text-tablet);
         }
-        h3 {
-          color: rgb(255, 255, 255);
-          font-size: 3vw;
+        h2 {
           line-height: 4vw;
+          font-size: var(--h2-text-tablet);
         }
         hr {
           width: 22vw;
@@ -143,14 +146,13 @@
     .bottom-img-2,
     .bottom-img-3 {
       .section-title {
-        padding: 13% 50% 13% 16%;
+        padding: 13% 48% 13% 16%;
         h1 {
-          font-size: 3vw;
+          font-size: var(--h1-text-desktop);
         }
-        h3 {
-          color: rgb(255, 255, 255);
-          font-size: 2vw;
-          line-height: 3vw;
+        h2 {
+          line-height: 2.5vw;
+          font-size: var(--h2-text-desktop);
         }
         hr {
           width: 12vw;
@@ -209,12 +211,11 @@
     .hero-img-4,
     .bottom-img,
     .bottom-img-2,
-    .bottom-img-3{
+    .bottom-img-3 {
       height: 28vw;
     }
     h1 {
-      font-size: 1.5vw;
-      line-height: 2.5vw;
+      font-size: var(--h1-text-desktop-full-hd);
       text-align: center;
     }
   }

@@ -15,7 +15,7 @@
     padding: 1vw 0 0 0;
     background-color: white;
     h3 {
-      font-size: 7.2vw;
+      font-size: var(--h3-text-mobile);
       font-weight: var(--titles-weight);
       line-height: 9vw;
       span {
@@ -23,7 +23,7 @@
       }
     }
     p {
-      font-size: 5.2vw;
+      font-size: var(--p-text-mobile);
       line-height: 8vw;
     }
   }
@@ -61,14 +61,14 @@
       gap: 3vw;
       padding: 1vw 0 0 0;
       h3 {
-        font-size: 3.8vw;
+        font-size: var(--h3-text-tablet);
         line-height: 5vw;
         span {
           font-size: 3vw;
         }
       }
       p {
-        font-size: 2.5vw;
+        font-size: var(--p-text-tablet);
         line-height: 4vw;
       }
     }
@@ -91,14 +91,14 @@
       padding: 0vw 0 0 0;
       justify-content: start;
       h3 {
-        font-size: 2vw;
+        font-size: var(--h3-text-desktop);
         line-height: 2.5vw;
         span {
           font-size: 1.6vw;
         }
       }
       p {
-        font-size: 1.3vw;
+        font-size: var(--p-text-desktop);
         line-height: 1.8vw;
       }
     }
@@ -128,10 +128,9 @@
       width: 30%;
       justify-content: start;
       h3 {
-        font-size: 2vw;
+        font-size: var(--h3-text-desktop-full-hd);
       }
       p {
-        font-size: 1.29vw;
         line-height: 1.8vw;
       }
     }

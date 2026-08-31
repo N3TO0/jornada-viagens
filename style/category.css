@@ -10,7 +10,7 @@
 .caregory-cards .card {
   color: var(--text-primary-color);
   font-weight: var(--titles-weight);
-  font-size: 5.5vw;
+  font-size: var(--h3-text-mobile);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
     gap: 2.8vw;
   }
   .caregory-cards .card {
-    font-size: 3vw;
+    font-size: var(--h3-text-tablet);
     gap: 4.5vw;
     padding: 0vw 0vw;
     width: 40%;
@@ -49,7 +49,7 @@
     height: 16vw;
   }
   .caregory-cards .card {
-    font-size: 1.5vw;
+    font-size: var(--h3-text-desktop);
     gap: 2vw;
     padding: 1vw 0.8vw;
     width: 13.8%;

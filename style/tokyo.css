@@ -1,0 +1,136 @@
+.tokyo-section {
+  padding: 2vw 11.4vw;
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+}
+.tokyo-section article {
+  display: flex;
+  flex-direction: column;
+  gap: 6vw;
+  .tokyo-picuture-2 {
+    img {
+      padding-bottom: 1vw;
+    }
+  }
+  span {
+    font-size: 3.6vw;
+  }
+  h3 {
+    font-size: var(--h3-text-mobile);
+    font-weight: var(--titles-weight);
+  }
+  p {
+    font-size: var(--p-text-mobile);
+    line-height: 6vw;
+    font-weight: var(--text-weight);
+  }
+  header {
+    h3 {
+      margin-bottom: 8vw;
+    }
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  img {
+    width: 100%;
+  }
+}
+@media (min-width: 520px) {
+  .tokyo-section {
+    padding: 4vw 9.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  .tokyo-section article {
+    gap: 2.5vw;
+    .tokyo-picuture-2 {
+      img {
+        padding-bottom: 1vw;
+      }
+    }
+    span {
+      font-size: 1.7vw;
+    }
+    h3 {
+      font-size: var(--h3-text-tablet);
+      font-weight: var(--titles-weight);
+    }
+    p {
+      font-size: var(--p-text-tablet);
+      line-height: 3.5vw;
+      font-weight: var(--text-weight);
+    }
+    header {
+      h3 {
+        margin-bottom: 2.5vw;
+      }
+      gap: 1vw;
+    }
+    footer {
+      width: 55%;
+    }
+  }
+  .tokyo-section .content-hero-tokyo-section {
+    display: flex;
+    flex-direction: row;
+    header {
+      justify-content: start;
+      width: 65%;
+      gap: 0vw;
+    }
+  }
+}
+@media (min-width: 1000px) {
+  .tokyo-section {
+    padding: 2vw 16vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+  }
+  .tokyo-section article {
+    gap: 1.5vw;
+    .tokyo-picuture-2 {
+      img {
+        padding-bottom: 0vw;
+      }
+    }
+    span {
+      font-size: 1vw;
+    }
+    h3 {
+      font-size: var(--h3-text-desktop);
+      font-weight: var(--titles-weight);
+    }
+    p {
+      font-size: var(--p-text-desktop);
+      line-height: 2vw;
+      font-weight: var(--text-weight);
+    }
+    header {
+      h3 {
+        margin-bottom: 0vw;
+      }
+      gap: vw;
+    }
+    footer {
+      width: 55%;
+    }
+  }
+  .tokyo-section .content-hero-tokyo-section {
+    display: flex;
+    flex-direction: row;
+    header {
+      justify-content: start;
+      width: 50%;
+      gap: 0vw;
+      h3 {
+        margin-bottom: 1.8vw;
+      }
+    }
+  }
+}
