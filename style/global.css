@@ -17,6 +17,29 @@
   --titles-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
+
+  /* text size */
+  --h1-text-mobile:8vw;
+  --h1-text-tablet:5vw;
+  --h1-text-desktop:3vw;
+  --h1-text-desktop-full-hd:1.5vw;
+
+  --h2-text-mobiel:6.8vw;
+  --h2-text-tablet:3.5vw;
+  --h2-text-desktop:2vw;
+
+  --h3-text-mobile:6vw;
+  --h3-text-tablet:3vw;
+  --h3-text-desktop:1.6vw;
+  --h3-text-desktop-full-hd:2vw;
+
+  --p-text-mobile:4.5vw;
+  --p-text-tablet:2.2vw;
+  --p-text-desktop:1.2vw;
+
+  --text-button-mobile: 5.3vw;
+  --text-button-tablet: 2.5vw;
+  --text-button-desktop:1.2vw;
 }
 body {
   background-color: var(--background-primary-color);
@@ -27,7 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  font-size: 5.3vw;
+  font-size: var(--text-button-mobile);
   font-weight: var(--titles-weight);
   color: var(--text-secondary-color);
   background-color: var(--secondary-color);
@@ -43,7 +66,7 @@ body {
     flex-direction: column;
     align-items: center;
     h2 {
-      font-size: 8vw;
+      font-size:var(--h2-text-mobiel);
       font-weight: var(--titles-weight);
       text-align: center;
       margin-top: 13vw;
@@ -60,7 +83,7 @@ body {
 @media (min-width: 620px) {
     .section-title {
       h2 {
-        font-size: 4.2vw;
+        font-size: var(--h2-text-tablet);
         margin-top: 8vw;
         padding: 0px 0vw;
       }
@@ -70,11 +93,14 @@ body {
         margin: 2% 0px 4.5% 0px;
       }
     }
+    .button{
+      font-size: var(--text-button-tablet);
+    }
 }
 @media (min-width: 1020px) {
   .section-title {
     h2 {
-      font-size: 2.4vw;
+      font-size: var(--h2-text-desktop);
       margin-top: 4vw;
       padding: 0px 0vw;
     }
@@ -84,5 +110,8 @@ body {
       margin: 1.5% 0px 3.5% 0px;
     }
   }
+  .button{
+      font-size: var(--text-button-desktop);
+    }
 }
 

@@ -26,11 +26,11 @@
   position: static;
   text-align: center;
   p {
-    font-size: 3vw;
+    font-size: var(--p-text-mobiel);
     font-weight: var(--text-weight);
   }
   h3 {
-    font-size: 6vw;
+    font-size: var(--h3-text-mobile);
     line-height: 8vw;
     font-weight: var(--titles-weight);
     span {
@@ -40,7 +40,6 @@
 }
 .card footer {
   height: 13vw;
-  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +47,7 @@
 .card footer .button {
   height: 80%;
   width: 70%;
-  font-size: 4vw;
+  font-size: 4.3vw;
 }
 .card.japao {
   background-image: url(../assets/img/bg-japao-mobile.png);
@@ -80,10 +79,10 @@
   .card header {
     height: calc(100% - 9vw);
     p {
-      font-size: 1.4vw;
+      font-size: var(--p-text-tablet);
     }
     h3 {
-      font-size: 2.6vw;
+      font-size: var(--h3-text-tablet);
       line-height: 3.8vw;
       margin-top: 0.5vw;
       span {
@@ -93,11 +92,10 @@
   }
   .card footer {
     height: 9vw;
-    font-size: 1.4vw;
   }
 
   .card footer .button {
-    font-size: 2.6vw;
+    font-size: 2.2vw;
   }
 }
 @media (min-width: 1023px) {
@@ -116,7 +114,7 @@
   .card header {
     height: fit-content;
     p {
-      font-size: 15px;
+      font-size: var(--p-text-desktop);
     }
     h3 {
       font-size: 2vw;
