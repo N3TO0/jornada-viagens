@@ -90,16 +90,51 @@
           que vamos retornar seu contato conforme a urgência do seu chamado.
           Pode confiar!
         </p>
-        <form action="">
-          <input name="" id="" type="text" placeholder="Seu nome" />
-          <input name="" id="" type="number" placeholder="Telefone" />
-          <input name="" id="" type="email" placeholder="E-mail" />
-          <input name="" id="" type="text" placeholder="Assunto" />
-          <label for="idOpinion">Assunto</label>
+        <form action="" method="get">
+          <label class="label-none" for="idName">Seu nome</label>
+          <input
+            id="idName"
+            name="userName"
+            type="text"
+            placeholder="Seu nome"
+            title="Digite seu nome"
+            required
+          />
+          <label class="label-none" for="idPhone">Telefone</label>
+          <input
+            name="userPhone"
+            type="tel"
+            pattern="[0-9]{11}"
+            placeholder="Telefone"
+            required
+            title="Digite seu Telefone"
+            id="idPhone"
+          />
+          <label class="label-none" for="idEmail">E-mail</label>
+          <input
+            id="idEmail"
+            name="userEmail"
+            type="email"
+            placeholder="E-mail"
+            title="Digite seu Email"
+            required
+          />
+          <label class="label-none" for="idTitleAssunto"
+            >Titulo do Assunto</label
+          >
+          <input
+            id="idTitleAssunto"
+            name="userAssuntoTitle"
+            type="text"
+            placeholder="Assunto"
+            title="Digite o Titulo do Assunto"
+            required
+          />
+          <label name="userAssunto" for="idOpinion">Assunto</label>
           <br />
-          <textarea name="" id=""></textarea>
+          <textarea id="idOpinion" title="Digite o assunto"></textarea>
 
-          <button class="button">Enviar</button>
+          <button class="button" aria-label="enviar dados do formulário" title="enviar dados do formulário" type="submit">Enviar</button>
         </form>
       </section>
 
