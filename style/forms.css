@@ -18,21 +18,21 @@
     margin-bottom: 15vw;
     input {
       border: 0px;
-      border-bottom: 2px solid rgba(0, 0, 0, 0.151);
+      border-bottom: 3px solid rgba(0, 0, 0, 0.384);
       margin-bottom: 10vw;
       padding: 2vw 0;
       font-size: var(--p-text-mobile);
-      color: rgba(0, 0, 0, 0.616);
+      color: rgba(0, 0, 0, 0.384);
     }
     input:hover {
       border: none;
-      border-bottom: 2px solid rgba(204, 13, 13, 0.562);
-      color: rgba(204, 13, 13, 0.562);
+      border-bottom: 3px solid rgba(204, 13, 13, 0.747);
+      color: rgba(204, 13, 13, 0.747);
       outline: none;
     }
     input:focus {
       border: none;
-      border-bottom: 2px solid rgba(204, 13, 13, 0.562);
+      border-bottom: 3px solid rgba(204, 13, 13, 0.562);
       color: rgba(204, 13, 13, 0.562);
       outline: none;
     }
@@ -42,7 +42,7 @@
     }
     textarea {
       border-radius: 8px;
-      border: 2px solid rgba(0, 0, 0, 0.151);
+      border-bottom: 3px solid rgba(0, 0, 0, 0.384);
       height: 15vw;
       padding: 1vw;
       font-size: var(--p-text-mobile);
@@ -52,7 +52,7 @@
       color: rgba(204, 13, 13, 0.562);
     }
     textarea:focus {
-      border: 2px solid rgba(204, 13, 13, 0.562);
+      border-color: rgba(204, 13, 13, 0.562);
       color: rgba(204, 13, 13, 0.562);
       outline: none;
     }
@@ -65,15 +65,15 @@
     .label-none {
       display: none;
     }
-    input:invalid,
-    select:invalid,
-    textarea:invalid {
+    input:user-invalid,
+    select:user-invalid,
+    textarea:user-invalid {
       border-color: red;
     }
 
-    input:valid,
-    select:valid,
-    textarea:valid {
+    input:user-valid,
+    select:user-valid,
+    textarea:user-valid {
       border-color: green;
     }
   }
@@ -95,7 +95,7 @@
       margin-bottom: 15vw;
       input {
         margin-bottom: 5vw;
-        padding: 2vw 0;
+        padding: 1vw 0;
         font-size: var(--p-text-tablet);
       }
       label {
@@ -108,7 +108,8 @@
       }
       button {
         width: 100%;
-        margin-top: 4vw;
+        margin-top: 6vw;
+        padding: 1.5vw 0;
         border: 0;
       }
     }
@@ -133,7 +134,7 @@
       margin-bottom: 6vw;
       input {
         margin-bottom: 2vw;
-        padding: 2vw 0;
+        padding: 0.8vw 0;
         font-size: var(--p-text-desktop);
       }
       label {
@@ -142,10 +143,12 @@
       textarea {
         border-radius: 8px;
         height: 8vw;
+        font-size: var(--p-text-desktop);
       }
       button {
         width: 100%;
         margin-top: 4vw;
+        padding: 1.5vw 0;
         border: 0;
       }
     }
@@ -173,21 +176,11 @@
       input {
         margin-bottom: 1.5vw;
         padding: 1vw 0;
-        font-size: var(--p-text-desktop);
-      }
-      label {
-        font-size: var(--p-text-desktop);
-      }
-      textarea {
-        border-radius: 8px;
-        border: 2px solid rgba(0, 0, 0, 0.151);
-        height: 8vw;
-        padding: 1vw;
-        font-size: var(--p-text-desktop);
       }
       button {
         width: 100%;
-        margin-top: 4vw;
+        margin-top: 3vw;
+        padding: 1.5vw 0;
         border: 0;
       }
     }
