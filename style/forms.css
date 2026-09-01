@@ -31,11 +31,11 @@
       outline: none;
     }
     input:focus {
-        border: none;
-        border-bottom: 2px solid rgba(204, 13, 13, 0.562);
-        color: rgba(204, 13, 13, 0.562);
-        outline: none;
-      }
+      border: none;
+      border-bottom: 2px solid rgba(204, 13, 13, 0.562);
+      color: rgba(204, 13, 13, 0.562);
+      outline: none;
+    }
     label {
       color: rgba(0, 0, 0, 0.616);
       font-size: var(--p-text-mobile);
@@ -46,15 +46,35 @@
       height: 15vw;
       padding: 1vw;
       font-size: var(--p-text-mobile);
+      outline: none;
     }
     textarea:hover {
       color: rgba(204, 13, 13, 0.562);
+    }
+    textarea:focus {
+      border: 2px solid rgba(204, 13, 13, 0.562);
+      color: rgba(204, 13, 13, 0.562);
+      outline: none;
     }
     button {
       width: 100%;
       margin-top: 10vw;
       padding: 1.5vw 0;
       border: 0;
+    }
+    .label-none {
+      display: none;
+    }
+    input:invalid,
+    select:invalid,
+    textarea:invalid {
+      border-color: red;
+    }
+
+    input:valid,
+    select:valid,
+    textarea:valid {
+      border-color: green;
     }
   }
 }
